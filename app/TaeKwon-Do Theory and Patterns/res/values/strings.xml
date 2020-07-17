@@ -1,0 +1,486 @@
+<resources>
+
+    <style name="ButtonTextTheory">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="OtherTitleText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="app_name">ITF TKD THEORY &amp; PATTERNS</string>
+    <string name="main_menu_title">ITF TKD THEORY &amp; PATTERNS</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Titles -->
+    <string name="title_activity_main_menu">ITF TKD THEORY &amp; PATTERNS</string>
+    <string name="title_activity_theory">Theory</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_step_sparring">2 StepSparring</string>
+    <string name="title_activity_patterns">Patterns</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="title_activity_flash_cards">FlashCards</string>
+    <string name="stepsparring_text">
+<![CDATA[    
+
+<p><b>Two Step Sparring – Ibo Matsoki – 6th KUP</b></p>
+
+<b><i>Number 1</i></b>
+<p>Attack – High punch, front kick</p>
+<p>Defence – Left leg back, walking stance, rising block right leg back, walking stance, X fist pressing block</p>
+<p>Counter – Twin vertical punch</p>
+
+<b><i>Number 2</i></b>
+<p>Attack – Side punch, fixed stance, turning kick</p>
+<p>Defence – Right leg back, L stance, upward palm block left leg back, L stance, waist block</p>
+<p>Counter – Slide forward into right L stance right side elbow</p>
+
+<b><i>Number 3</i></b>
+<p>Attack – Front kick, twin vertical punch</p>
+<p>Defence – Right leg back, walking stance, X fist pressing block.  Left leg back walking stance, outer forearm wedging block</p>
+<p>Counter – Knee kick at the same time pull opponent’s shoulders</p>
+
+<b><i>Number 4</i></b>
+<p>Attack – Flat fingertip thrust, side kick</p>
+<p>Defence – Right leg back, walking stance, knife-hand rising block left leg back, L stance, inward palm block</p>
+<p>Counter – Front kick to coccyx, twin upset punch to kidneys</p>
+
+<p><b>Two Step Sparring – Ibo Matsoki – 5th KUP</b></p>
+
+<b><i>Number 5</i></b>
+<p>Attack – Right back kick.  Left stance high palm strike</p>
+<p>Defence – Right L stance palm waist block.  Left L stance outer forearm inward block</p>
+<p>Counter – Right walking stance reverse knife-hand reverse middle inward strike. (Slipping right foot)</p>
+
+<b><i>Number 6</i></b>
+<p>Attack – Right high turning kick.  Left walking stance arc-hand high strike.</p>
+<p>Defence – Sitting stance twin straight forearm block (removing left foot diagonal).  Right L stance palm hooking block (grabbing the arm)</p>
+<p>Counter – Left side kick (still holding grabbed arm)</p>
+
+<b><i>Number 7</i></b>
+<p>Attack – Right fixed stance side fist strike.  Left middle reverse turning kick</p>
+<p>Defence – Left L stance twin forearm block.  Right L stance knife-hand guarding block (sliding away using block as guard only)</p>
+<p>Counter – Right hand reverse turning kick</p>
+
+<b><i>Number 8</i></b>
+<p>Attack – Right middle side kick.  Right L stance knife hand high strike (turning anti-clockwise)</p>
+<p>Defence – Right L stance inner forearm inward waist block.  Right L stance knife-hand guarding block (double stepping)</p>
+<p>Counter – Left X stance back fist high side strike</p>
+]]>
+    </string>
+    <string name="history_text">
+<![CDATA[    
+        <b>About</b>
+        <p>Taekwondo is an ancient, striking martial art which hails from Korea. The art teaches philosophy and history, but also teaches self-defense, encourages fitness and teaches blocks, strikes and kicks to a high level as well as being an official Olympic sport – for both men and women.</p>
+        
+     <b>History</b>
+     <p>In 1959 the Korean Tae Kwon-Do Association was founded with Choi Hong Hi as a Vice-President. The next year he was elected President. At this time Tae Kwon-Do was introduced to the world, when General Choi and 19 senior black belts made a tour of Asia.
+Tae Kwon-do was introduced into the United States of America in 1960 after General Choi made a visit to Jhoon Rhee’s karate school in San Antonio and convinced him to change the name to Tae Kwon-Do.</p>
+<p>On 22 March 1966, the International Tae Kwon-do Federation [ITF] was founded. At the beginning its members were Korea, Vietnam, Malaysia, Singapore, The Federal Republic of Germany, USA, Turkey, Italy and Egypt.
+Tae Kwon-Do was introduced into the United Kingdom in 1967 by Rhee Ki Ha.</p>
+
+<p>The Tae Kwon-Do Association of Great Britain [TAGB] was formed in August 1983.
+On the 21st of April 1988 a new governing body for Tae Kwon-Do was formed called the British Tae Kwon-Do Council [BTC].</p>
+     
+<b>TAGB Examiners</b>
+		<p>Mr Donald Atkins</p>
+		<p>Mr Michael Dew</p>
+		<p>Mr Paul Donnelly</p>
+		<p>Mr David Oliver</p>
+		<p>Mr Kenneth Walton</p>
+		<p>Mr Brian Towndrow</p>
+		<p>Mr Gianni Peros</p>
+		
+<b>Tenants of Tae Kwon-Do</b>
+<p><i>Courtesy</i> – To be polite to one’s instructors, seniors and fellow students. </p>
+<p><i>Integrity</i> – To be honest with oneself.  One must be able to define right and wrong.</p>
+<p><i>Perseverance</i> – To achieve a goal, whether it is a higher grade or a technique, one must not stop trying; one must persevere.</p>
+<p><i>Self Control</i> – To lose ones temper when performing techniques against an opponent can be very dangerous and shows lack of control.  To be able to live, work and train within ones capability shows good self control.</p>
+<p><i>Indomitable Spirit</i> – To show courage when you and your principles are pitted against overwhelming odds.</p>
+      
+<b>Tae Kwon-Do Oath</b>
+<p>As a student of Tae Kwon-Do, I do solemnly pledge to abide bt the rules and regulations of the Tae Kwon-Do Association, To strive always to be modest, courteous and respectful to all members, in particular my seniors.  To put the art into use only for self defence or defence of the weak and never to abuse my knowledge of the art.</p>
+]]>
+    </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_theory_view">TheoryView</string>
+    <string name="title_activity_patterns_view">PatternsView</string>
+    <string name="yellowtag_text">
+<![CDATA[    
+<p>Starting Position: Parallel ready stance</p>
+
+<p>The illustrations for this pattern assume that the student is standing on line AB and facing D</p>
+
+<p>1. Move the left foot to B forming a left walking stance toward B while executing a low block to B with the left forearm</p>
+<p>2. Move the right foot to B forming a right walking stance toward B while executing a middle punch to B with the right fist</p>
+<p>3. Move the right foot to A, turning clockwise to form a right walking stance toward A while executing a low block to A with the right forearm</p>
+<p>4. Move the left foot to A forming a left walking stance toward A while executing a middle punch to A with the left fist</p>
+<p>5. Move the left foot to D forming a left walking stance toward D while executing a low block to D with the left forearm</p>
+<p>6. Move the right foot to D forming a right walking stance toward D while executing a middle punch to D with the right fist</p>
+<p>7. Move the right foot to C turning clockwise to form a right walking stance toward C while executing a low block to C with the right forearm</p>
+<p>8. Move the left foot to C forming a left walking stance toward C while executing a middle punch to C with the left fist</p>
+<p>9. Move the left foot to A forming a right L-stance toward A while executing a middle block to A with the left inner forearm</p>
+<p>10. Move the right foot to A forming a right walking stance toward A while executing a middle punch to A with the right fist</p>
+<p>11. Move the right foot to B turning clockwise to form a left L-stance toward B while executing a middle block to B with the right inner forearm</p>
+<p>12. Move the left foot to B forming a left walking stance toward B while executing a middle punch to B with the left fist</p>
+<p>13. Move the left foot to C forming a right L-stance toward C while executing a middle block to C with the left inner forearm</p>
+<p>14. Move the right foot to C forming a right walking stance toward C while executing a middle punch to C with the right fist</p>
+<p>15. Move the right foot to D turning clockwise to form a left L-stance toward D while executing a middle block to D with the right inner forearm</p>
+<p>16. Move the left foot to D forming a left walking stance toward D while executing a middle punch to D with the left fist</p>
+<p>17. Move the right foot to D forming a right walking stance toward D while executing a middle punch to D with the right fist</p>
+<p>18. Move the right foot to C forming a left walking stance toward D while executing a middle punch to D with the left fist</p>
+<p>19. Move the left foot to C forming a right walking stance toward D while executing a middle punch to D with the right fist</p>
+<p>END: Bring the left foot back to a ready posture</p>
+]]>
+    </string>
+    <string name="yellowbelt_text">
+<![CDATA[    
+<p>Starting Position: Parallel ready stance</p>
+
+<p>1. Move the left foot to B forming a right L-stance toward B, at the same time executing a middle guarding block to B with a knife-hand</p>
+<p>2. Move the right foot to B forming a right walking stance toward B while executing a high punch to B with the right fist</p>
+<p>3. Move the right foot to A turning clockwise to form a left L-stance toward A, at the same time executing a middle guarding block to A with a knife-hand</p>
+<p>4. Move the left foot to A forming a left walking stance toward A while executing a high punch to A with the left fist</p>
+<p>5. Move the left foot to D forming a left walking stance toward D while executing a low block to D with the left forearm</p>
+<p>6. Move the right foot to D forming a right walking stance toward D while executing a high punch to D with the right fist</p>
+<p>7. Move the left foot to D forming a left walking stance toward D while executing a high punch to D with the left fist</p>
+<p>8. Move the right foot to D forming a right walking stance toward D while executing a high punch to D with the right fist</p>
+<p>9. Move the left foot to E, turning counter clockwise to form a right L-stance toward E while executing a twin forearm block to E</p>
+<p>10. Move the right foot to E forming a right walking stance toward E while executing a high punch to E with the right fist</p>
+<p>11. Move the right foot to F turning clockwise to form a left L-stance toward F while executing a twin forearm block to F</p>
+<p>12. Move the left foot to F forming a left walking stance toward F while executing a high punch to F with the left fist</p>
+<p>13. Move the left foot to C forming a left walking stance toward C while executing a low block to C with the left forearm</p>
+<p>14. Execute a rising block with the left forearm, maintaining the left walking stance toward C. Perform 13 and 14 in a continuous motion</p>
+<p>15. Move the right foot to C forming a right walking stance toward C, at the same time executing a rising block with the right forearm</p>
+<p>16. Move the left foot to C forming a left walking stance toward C, at the same time executing a rising block with the left forearm</p>
+<p>17. Move the right foot to C forming a right walking stance toward C, at the same time executing a rising block with the right forearm</p>
+<p>18. Move the left foot to B turning counter clockwise to form a right L-stance toward B while executing a middle outward strike to B with the left knife-hand</p>
+<p>19. Move the right foot to B forming a right walking stance toward B while executing a high punch to B with the right fist</p>
+<p>20. Move the right foot to A turning clockwise to form a left L-stance toward A while executing a middle outward strike to A with the right knife-hand</p>
+<p>21. Move the left foot to A forming a left walking stance toward A while executing a high punch to A with the left fist</p>
+<p>END: Bring the left foot back to a ready posture</p>
+]]>
+    </string>
+    <string name="greentag_text">
+<![CDATA[    
+<p>Starting Position: Parallel ready stance</p>
+
+<p>1. Move the left foot to B, forming a left walking stance toward B while executing a high side block to B with the left outer forearm</p>
+<p>2. Execute a middle punch to B with the right fist while maintaining a left walking stance toward B</p>
+<p>3. Move the left foot on line AB, and then turn clockwise to form a right walking stance toward A while executing a high side block to A with the right outer forearm</p>
+<p>4. Execute a middle punch to A with the left fist while maintaining a right walking stance toward A</p>
+<p>5. Move the left foot to D, forming a right L-stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>6. Move the right foot to D forming a right walking stance toward D while executing a middle thrust to D with the right straight fingertip</p>
+<p>7. Twist the right knife-hand together with the body counter clockwise until its palm faces downward and then move the left foot to D, turning counter clockwise to form a left walking stance toward D while executing a high side strike to D with the left back fist</p>
+<p>8. Move the right foot to D forming a right walking stance toward D while executing a high side strike to D with the right back fist</p>
+<p>9. Move the left foot to E, turning counter clockwise to form a left walking stance toward E while executing a high side block to E with the left outer forearm</p>
+<p>10. Execute a middle punch to E with the right fist while maintaining a left walking stance toward E</p>
+<p>11. Move the left foot on line EF, and then turn clockwise to form a right walking stance toward F while executing a high side block to F with the right outer forearm</p>
+<p>12. Execute a middle punch to F with the left fist while maintaining a right walking stance toward F</p>
+<p>13. Move the left foot to CE forming a left walking stance toward CE, at the same time executing a high wedging block to CE with the outer forearm</p>
+<p>14. Execute a middle front snap kick to CE with the right foot, keeping the position of the hands as they were in 13</p>
+<p>15. Lower the right foot to CE forming a right walking stance toward CE while executing a middle punch to CE with the right fist</p>
+<p>16. Execute a middle punch to CE with the left fist while maintaining a right walking stance toward CE. Perform 15 and 16 in a fast motion</p>
+<p>17. Move the right foot to CF forming a right walking stance toward CF while executing a high wedging block to CF with the outer forearm</p>
+<p>18. Execute a middle front snap kick to CF with the left foot, keeping the position of the hands as they were in 17</p>
+<p>19. Lower the left foot to CF forming a left walking stance toward CF while executing a middle punch to CF with the left fist</p>
+<p>20. Execute a middle punch to CF with the right fist while maintaining a left walking stance toward CF. Perform 19 and 20 in a fast motion</p>
+<p>21. Move the left foot to C forming a left walking stance toward C, at the same time executing a rising block with the left forearm</p>
+<p>22. Move the right foot to C forming a right walking stance toward C while executing a rising block with the right forearm</p>
+<p>23. Move the left foot to B, turning counter clockwise to form a sitting stance toward D while executing a middle side strike to B with the left knife-hand</p>
+<p>24. Bring the left foot to the right foot and then move the right foot to A forming a sitting stance toward D while executing a middle side strike to A with the right knife-hand</p>
+<p>END: Bring the right foot back to a ready posture.</p>
+]]>
+    </string>
+    <string name="greenbelt_text">
+<![CDATA[    
+<p>Starting Position: Closed ready stance A</p>
+
+<p>1. Move the left foot to B forming a right L-stance toward B while executing a twin forearm block</p>
+<p>2. Execute a high inward strike to B with the right knife-hand while bringing the left side fist in front of the right shoulder, maintaining a right L-stance toward B</p>
+<p>3. Execute a middle punch to B with the left fist while forming a left fixed stance toward B, slipping the left foot to B</p>
+<p>4. Bring the left foot to the right footand then move the right foot to A, forming a left L-stance toward A while executing a twin forearm block</p>
+<p>5. Execute a high inward strike to A with the left knife-hand while bringing the right side fist in front of the left shoulder, maintaining a left L-stance toward A</p>
+<p>6. Execute a middle punch to A with the right fist while forming a right fixed stance toward A, slipping the right foot to A</p>
+<p>7. Bring the right foot to the left foot and then turn the face toward D while forming a right bending ready stance A toward D</p>
+<p>8. Execute a middle side piercing kick to D with the left foot</p>
+<p>9. Lower the left foot to D forming a right L-stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>10. Move the right foot to D forming a left L-stance toward D while executing a guarding block to D with a knife-hand</p>
+<p>11. Move the left foot to D forming a right L-stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>12. Move the right foot to D forming a right walking stance toward D while executing a middle thrust to D with the right straight finger tip</p>
+<p>13. Move the left foot to E turning counter clockwise to form a right L-stance toward E, at the same time executing a twin forearm block</p>
+<p>14. Execute a high inward strike to E with the right knife-hand while bringing the left side fist in front of the right shoulder, maintaining a right L-stance toward E</p>
+<p>15. Execute a middle punch to E with the left fist while forming a left fixed stance toward E, slipping the left foot to E</p>
+<p>16. Bring the left foot to the right foot and then move the right foot to F, forming a left L-stance toward F while executing a twin forearm block</p>
+<p>17. Execute a high inward strike to F with the left knife-hand while bringing the right side fist in front of the left shoulder, maintaining a left L-stance toward F</p>
+<p>18. Execute a middle punch to F with the right fist while forming a right fixed stance toward F, slipping the right foot to F</p>
+<p>19.Bring the right foot to the left foot and then move the left foot to C forming a left walkng stance toward C while executing a circular block to CF with the right inner forearm</p>
+<p>20. Execute a low front snap kick to C with the right foot, keeping the position of the hands as they were in 19</p>
+<p>21. Lower the right foot to C forming a right walking stance toward C while executing a middle punch to C with the left fist</p>
+<p>22. Execute a circular block to CE with the left inner forearm while maintaining a right walking stance toward C</p>
+<p>23. Execute a low front snap kick to C with the left foot, keeping the position of the hands as they were in 22</p>
+<p>24. Lower the left foot to C forming a left walking stance toward C while executing a middle punch to C with the right fist</p>
+<p>25. Turn the face toward C forming a left bending ready stance A toward C</p>
+<p>26. Execute a middle side piercing kick to C with the right foot</p>
+<p>27. Lower the right foot on line CD and then move the left foot to B, turning counter clockwise to form a right L-stance toward B, at the same time executing a middle guarding block to B with the forearm</p>
+<p>28. Bring the left foot to the right foot and then move the right foot to A forming a left L-stance toward A while executing a middle guarding clock to A with the forearm</p>
+
+<p>END: Bring the right foot back to a ready posture</p>
+]]>
+    </string>
+    <string name="bluetag_text">
+<![CDATA[    
+<p>Starting Position: Parallel ready stance</p>
+
+<p>1. Move the left foot to B forming a sitting stance toward D while extending the left fist to D horizontally</p>
+<p>2. Execute a middle punch to D with the right fist while maintaining a sitting stance toward D</p>
+<p>3. Execute a middle punch to D with the left fist while maintaining a sitting stance toward D. Perform 2 and 3 in a fast motion</p>
+<p>4. Bring the left foot to the right foot and then move the right foot to A forming a sitting stance toward D while extending the right fist to D horizontally</p>
+<p>5. Execute a middle punch to D with the left fist while maintaining a sitting stance toward D</p>
+<p>6. Execute a middle punch to D with the right fist while maintaining a sitting stance toward D. Perform 5 and 6 in a fast motion</p>
+<p>7. Move the right foot to Ad forming a right walking stance toward AD while executing a middle side block to AD with the right inner forearm</p>
+<p>8. Execute a low front snap kick to AD with the left foot keeping the position of the hands as they were in 7</p>
+<p>9. Lower the left foot to AD forming a left walking stance toward AD while executing a middle punch to AD with the left fist</p>
+<p>10. Execute a middle punch to AD with the right fist while maintaining a left walking stance toward AD. Perform 9 and 10 in a fast motion</p>
+<p>11. Move the left foot to BD forming a left walking stance toward BD at the same time executing a middle side block to BD with the left inner forearm</p>
+<p>12. Execute a low front snap kick to BD with the right foot keeping the position of the hands as they were in 11</p>
+<p>13. Lower the right foot to BD forming a right walking stance toward BD while executing a middle punch to BD with the right fist</p>
+<p>14. Execute a middle punch to BD with the left fist while maintaining a right walking stance toward BD. Perform 13 and 14 in a fast motion</p>
+<p>15. Execute a middle hooking block to D with the right palm while forming a right walking stance toward D, pivoting with the left foot</p>
+<p>16. Execute a middle hooking block to D with the left palm while maintaining a right walking stance toward D</p>
+<p>17. Execute a middle punch to D with the right fist while maintaining a right walking stance toward D. Execute 16 and 17 in a connecting motion</p>
+<p>18. Move the left foot to D forming a left walking stance toward D while executing a middle hooking block to D with the left palm</p>
+<p>19. Execute a middle hooking block to D with the right palm while maintaining a left walking stance toward D</p>
+<p>20. Execute a middle punch to D with the left fist while maintaining a left walking stance toward D. Execute 19 and 20 in a connecting motion</p>
+<p>21. Move the right foot to D forming a right walking stance toward D at the same time executing a middle punch to D with the right fist</p>
+<p>22. Turn the face toward D forming a right bending ready stance A toward D</p>
+<p>23. Execute a middle side piercing kick to D with the left foot</p>
+<p>24. Lower the left foot to D forming a left walking stance toward D while striking the left palm with the right front elbow</p>
+<p>25. Turn the face toward C forming a left bending ready stance A toward C</p>
+<p>26. Execute a middle side piercing kick to C with the right foot</p>
+<p>27. Lower the right foot to C forming a right walking stance toward C while striking the right palm with the left front elbow</p>
+<p>28. Move the left foot to E forming a right L-stance toward E while executing a twin knife-hand block</p>
+<p>29. Move the right foot to E forming a right walking stance toward E while executing a middle thrust to E with the right straight finger tip</p>
+<p>30. Move the right foot to F turning clockwise to form a left L-stance toward F while executing a twin knife-hand block</p>
+<p>31. Move the left foot to F forming a left walking stance toward F while executing a middle thrust to F with the left straight finger tip</p>
+<p>32. Move the left foot to C forming a left walking stance toward C while executing a high side block to C with the left outer forearm</p>
+<p>33. Execute a middle punch to C with the right fist while maintaining a left walking stance toward C</p>
+<p>34. Move the right foot to C forming a right walking stance toward C while executing a high side block to C with the right outer forearm</p>
+<p>35. Execute a middle punch to C with the left fist while maintaining a right walking stance toward C</p>
+<p>36. Jump to C forming a left X-stance toward B while executing a high side strike to C with the left back fist</p>
+<p>37. Move the right foot to A forming a right walking stance toward A at the same time executing a high block to A with the right double forearm</p>
+<p>38. Bring the right foot to the left foot and then move the left foot to B forming a left walking stance toward B while executing a high block to B with the left double forearm</p>
+
+<p>END: Bring the left foot back to a ready posture</p>
+]]>
+    </string>
+    <string name="bluebelt_text">
+<![CDATA[    
+<p>Starting Position: Closed ready stance B</p>
+
+<p>1. Move the left foot to B forming a right L-stance toward B while executing a middle block to B with the left reverse knife-hand</p>
+<p>2. Execute a low side front snap kick to B with the left foot, keeping the position of the hands as they were in 1</p>
+<p>3. Lower the left foot to B and then move the right foot to B forming a left rear foot stance toward B while executing an upward block with a right palm</p>
+<p>4. Move the right foot to A forming a left L-stance toward A, at the same time executing a middle block to A with a right reverse knife-hand</p>
+<p>5. Execute a low side front snap kick to A with the right foot, keeping the position of the hands as they were in 4</p>
+<p>6. Lower the right foot to A and then move the left foot to A forming a right rear foot stance toward A while executing an upward block with a left palm</p>
+<p>7. Move the left foot to D forming a right L-stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>8. Execute a right upper elbow strike while forming a left walking stance toward D, slipping the left foot to D</p>
+<p>9. Move the right foot to D forming a left L-stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>10. Execute a left upper elbow strike while forming a right walking stance toward D, slipping the right foot to D</p>
+<p>11. Move the left foot to D forming a left walking stance toward D while executing a high vertical punch to D with a twin fist</p>
+<p>12. Move the right foot to D forming a right walking stance toward D while executing an upset punch to D with a twin fist</p>
+<p>13. Move the right foot on line CD and then turn counter clockwise to form a left walking stance toward C while executing a rising block with an X-fist</p>
+<p>14. Move the left foot to E forming a right L-stance toward E while executing a high side strike to E with the left back fist</p>
+<p>15. Twist the left fist counter clockwise until the back fist faces downward, at the same time forming a left walking stance toward E, slipping the left foot to E</p>
+<p>16. Execute a high punch to E with the right fist while maintaining a left walking stance toward E. Perform 15 and 16 in a fast motion</p>
+<p>17. Bring the left foot to the right foot and then move the right foot to F, forming a left L-stance toward F while executing a high side strike to F with a right back fist</p>
+<p>18. Twist the right fist clockwise until the back fist faces downward, at the same time forming a right walking stance toward F, slipping the right foot to F</p>
+<p>19. Execute a high punch to F with the left fist while maintaining a right walking stance toward F. Perform 18 and 19 in a fast motion</p>
+<p>20. Bring the right foot to the left foot and then move the left foot to C forming a left walking stance toward C while executing a high block to C with a left double forearm</p>
+<p>21. Execute a middle punch to C with the left fist while forming a right L-stance toward C, pulling the left foot</p>
+<p>22. Execute a middle side piercing kick to C with the right foot</p>
+<p>23. Lower the right foot to C forming a right walking stance toward C while executing a high block to C with the right double forearm</p>
+<p>24. Execute a middle punch to C with the right fist while forming a left L-stance toward C, pulling the right foot</p>
+<p>25. Execute a middle side piercing kick to C with the left foot</p>
+<p>26. Lower the left foot to C forming a right L-stance toward C while executing amiddle guarding block to C with the forearm</p>
+<p>27. Execute a pressing block with the right palm while forming a left low stance toward C, slipping the left foot to C. Perform in slow motion</p>
+<p>28. Move the right foot to C forming a left L-stance toward C while executing a middle guarding block to C with the forearm</p>
+<p>29. Execute a pressing block with the left palm while forming a right low stance toward C, slipping the right foot to C. Perform in a slow motion</p>
+<p>30. Bring the left foot to the right foot forming a closed stance toward A while executing an angle punch with the right fist. Perform in slow motion</p>
+<p>31. Move the right foot to A forming a right fixed stance toward A while executing a U-shape block to A</p>
+<p>32. Bring the right foot to the left foot and then move the left foot to B forming a left fixed stance toward B, at the same time executing a U-shape block to B</p>
+
+<p>END: Bring the left foot back to a ready posture</p>
+]]>
+    </string>
+    <string name="redtag_text">
+<![CDATA[    
+<p>Starting Position: Closed ready stance B</p>
+
+<p>1. Move the left foot to B forming a right L-stance toward B while executing a middle block to B with the left inner forearm</p>
+<p>2. Execute a low thrust to B with the right upset finger tip while forming a left walking stance toward B, slipping the left foot to B</p>
+<p>3. Bring the left foot to the right foot to form a closed stance toward D while executing a side back strike to C with the right back fist, extending the left arm to the side downward. Perform in slow motion</p>
+<p>4. Move the right foot to A forming a left L-stance toward A while executing a middle block to A with the right inner forearm</p>
+<p>5. Execute a low thrust to A with the left upset finger tip while forming a right walking stance toward A, slipping the right foot to A</p>
+<p>6. Bring the right foot to the left foot to form a closed stance toward D while executing a side back strike to C with the left back fist, extending the right arm to the side downward. Perform in slow motion</p>
+<p>7. Move the left foot to D forming a left walking stance toward D while executing a pressing block with an X-fist</p>
+<p>8. Execute a high vertical punch to D with a twin fist while maintaining a left walking stance toward D. Perform 7 and 8 in a continuous motion</p>
+<p>9. Execute a middle front snap kick to D with the right foot, keeping the position of the hands as they were in 8</p>
+<p>10. Lower the right foot to D forming a right walking stance toward D while executing a middle punch to D with the right fist</p>
+<p>11. Execute a middle punch to D with the left fist while maintaining a right walking stance toward D</p>
+<p>12. Bring the left foot to the right foot forming a closed stance toward F while executing a twin side elbow thrust. Perform in slow motion</p>
+<p>13. Move the right foot to F in a stamping motion forming a sitting stance toward C while executing a W-shape block to C with the right outer forearm</p>
+<p>14. Move the left foot to F in a stamping motion turning clockwise to form a sitting stance toward D while executing a W-shape block to D with the left outer forearm</p>
+<p>15. Move the left foot to E in a stamping motion turning clockwise to form a sitting stance toward C while executing a W-shape block to C with the left outer forearm</p>
+<p>16. Move the right foot to E in a stamping motion turning counter clockwise to form a sitting stance toward D while executing a W-shape block to D with the right outer forearm</p>
+<p>17. Move the left foot to E in a stamping motion turning clockwise to form a sitting stance toward C while executing a W-shape block to C with the left outer forearm</p>
+<p>18. Move the left foot to F in a stamping motion turning clockwise to form a sitting stance toward D while executing a W-shape block to D with the left outer forearm</p>
+<p>19. Bring the right foot to the left foot and then move the left foot to D forming a right L-stance toward D while executing a low pushing block to D with the left double forearm</p>
+<p>20. Extend both hands upward as if to grab the opponent\'s head while forming a left walking stance toward D, slipping the left foot to D</p>
+<p>21. Execute an upward kick with the right knee while pulling both hands downward</p>
+<p>22. Lower the right foot to the left foot and then move the left foot to C forming a right L-stance toward C while executing a middle guarding block to C with a knife-hand</p>
+<p>23. Execute a low side front snap kick to C with the left foot, keeping the position of the hands as they were in 22</p>
+<p>24. Lower the left foot to C forming a left walking stance toward C while executing a high thrust to C with the left flat finger tip</p>
+<p>25. Move the right foot to C forming a left L-stance toward C while executing a middle guarding block to C with a knife-hand</p>
+<p>26. Execute a low side front snap kick to C with the right foot, keeping the position of the hands as they were in 25</p>
+<p>27. Lower the right foot to C forming a right walking stance toward C while executing a high thrust to C with the right flat finger tip</p>
+<p>28. Move the right foot to D forming a right L-stance toward C while executing a side back strike to D with the right back fist and a low block to C with the left forearm</p>
+<p>29. Jump to C forming a right X-stance toward A while executing a pressing block with an X-fist</p>
+<p>30. Move the right foot to C forming a right walking stance toward C while executing a high block to C with the right double forearm</p>
+<p>31. Move the left foot to B forming a right L-stance toward B while executing a low guarding block to B with a knife-hand</p>
+<p>32. Execute a circular block to BD with the right inner forearm while forming a left walking stance toward B\, slipping the left foot to B</p>
+<p>33. Bring the left foot to the right foot and then move the right foot to A forming a left L-stance toward A\, at the same time executing a low guarding block to A with a knife-hand</p>
+<p>34. Execute a circular block to AD with the left inner forearm while forming a right walking stance toward A\, slipping the right foot to A</p>
+<p>35. Execute a circular block to CE with the right inner forearm while forming a left walking stance toward C</p>
+<p>36. Execute a circular block to AD with the left inner forearm while forming a right walking stance toward A</p>
+<p>37. Move the right foot on line AB to form a sitting stance toward D while executing a middle punch to D with the right fist</p>
+
+<p>END: Bring the right foot back to a ready posture</p>
+]]>
+</string>
+    <string name="redbelt_text">
+<![CDATA[    
+<p>Starting Position: Closed ready stance C
+
+<p>1. Move the left foot to B to form a sitting stance toward D while executing a middle pushing block to D with the left palm</p>
+<p>2. Execute a middle punch to D with the right fist while maintaining a sitting stance toward D</p>
+<p>3. Execute a middle punch to D with the left fist while maintaining a sitting stance toward D</p>
+<p>4. Execute a twin forearm block while forming a left L-stance toward A, pivoting with the let foot</p>
+<p>5. Execute an upward punch with the left fist while pulling the right side fist in front of the left shoulder, maintaining a left L-stance toward A</p>
+<p>6. Execute a middle punch to A with the right fist while forming a right fixed stance toward A in a sliding motion</p>
+<p>7. Execute a downward strike with the right knife-hand while forming a left vertical stance toward A, pulling the right foot</p>
+<p>8. Move the left foot to A forming a left walking stance toward A while executing a middle punch to A with the left fist</p>
+<p>9. Move the left foot to D forming a left walking stance toward D while executing a low block to D with the left forearm</p>
+<p>10. Move the right foot to D forming a right walking stance toward D while executing a middle punch to D with the right fist</p>
+<p>11. Pull the left foot toward the right foot while bringing the left palm to the right forefist, at the same time bending the right elbow about 45 degrees outward</p>
+<p>12. Execute a middle side piercing kick to D with the right foot while pulling both hands in the opposite direction and then lower it to D forming a left L-stance toward D, at the same time executing a middle outward strike to D with the right knife-hand</p>
+<p>13. Move the left foot to D forming a left walking stance toward D while executing a middle punch to D with the left fist</p>
+<p>14. Move the right foot to D forming a right walking stance toward D at the same time executing a middle punch to D with the right fist</p>
+<p>15. Move the left foot to E turning counter clockwise to form a right L-stance toward E while executing a middle guarding block to E with a knife-hand</p>
+<p>16. Move the right foot to E forming a right walking stance toward E while executing a middle thrust to E with the right straight finger tip</p>
+<p>17. Move the right foot on line EF forming a right L-stance toward F while executing a middle guarding block to F with a knife-hand</p>
+<p>18. Execute a high turning kick to DF with the right foot and then lower it to F</p>
+<p>19. Execute a high turning kick to CF with the left foot and then lower it to F forming a right L-stance toward F while executing a middle guarding block to F with a knife-hand. Perform 18 and 19 in a fast motion</p>
+<p>20. Move the left foot to C forming a left walking stance toward C while executing a low block to C with the left forearm</p>
+<p>21. Execute a middle punch to C with the right fist while forming a right L-stance toward C, pulling the left foot</p>
+<p>22. Move the right foot to C forming a left L-stance toward C while executing a middle punch to C with the left fist</p>
+<p>23. Move the left foot to C forming a right L-stance toward C while executing a middle punch to C with the right fist</p>
+<p>24. Execute a pressing block with an X-fist while forming a left walking stance toward C, slipping the left foot to C</p>
+<p>25. Move the right foot to C in a sliding motion forming a right L-stance toward D while thrusting to C with the right side elbow</p>
+<p>26. Bring the left foot to the right foot, turning counter clockwise to form a closed stance toward B while executing a side front block with the right inner forearm while extending the left forearm to the side downward</p>
+<p>27. Execute a side front block with the left inner forearm, extending the right forearm to the side downward while maintaining a closed stance toward B</p>
+<p>28. Move the left foot to B forming a right L-stance toward B at the same time executing a middle guarding block to B with a knife-hand</p>
+<p>29. Bring the left foot to the right foot and then move the right foot to A forming a left L-stance toward A while executing a middle guarding block to A with a knife-hand</p>
+
+<p>END: Bring the right foot back to a ready posture.</p>
+]]>
+    </string>
+    <string name="blacktag_text">
+<![CDATA[    
+<p>Starting Position: Parallel ready stance</p>
+
+<p>1. Move the left foot to B forming a right L-stance toward B while executing a twin knife-hand block</p>
+<p>2. Move the right foot to B forming a right walking stance toward B while executing a high front strike to B with the right knife-hand and bring the left back hand in front of the forehead</p>
+<p>3. Move the right foot to A turning clockwise to form a left L-stance toward A while executing a middle guarding block to A with a knife-hand</p>
+<p>4. Move the left foot to A forming a left walking stance toward A while executing a high thrust to A with the left flat finger tip</p>
+<p>5. Move the left foot to D forming a right L-stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>6. Turn the face to C forming a left bending ready stance A toward C</p>
+<p>7. Execute a middle side piercing kick to C with the right foot</p>
+<p>8. Lower the right foot to C forming a right L-stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>9. Execute a flying side piercing kick to D with the right foot soon after moving it to D and then land to D forming a left walking stance toward D while executing a middle guarding block to D with a knife-hand</p>
+<p>10. Move the left foot to E turning counter clockwise to form a right L-stance toward E at the same time executing a low block to E with the left forearm</p>
+<p>11. Extend both hands upward as if to grab the opponent\'s head while forming a left walking stance toward E, slipping the left foot</p>
+<p>12. Execute an upward kick to E with the right knee pulling both hands downward</p>
+<p>13. Lower the right foot to the left foot and then move the left foot to F forming a left walking stance toward F while executing a high front strike to F with the right reverse knife-hand, bringing the left back hand under the right elbow joint</p>
+<p>14. Execute a high turning kick to DF with the right foot and then lower it to the left foot</p>
+<p>15. Execute a middle back piercing kick to F with the left foot. Perform 14 and 15 in a fast motion</p>
+<p>16. Lower the left foot to F forming a left L-stance toward E while executing a middle guarding block to E with the forearm</p>
+<p>17. Execute a middle turning kick to DE with the left foot</p>
+<p>18. Lower the left foot to the right foot and then move the right foot to C forming a right fixed stance toward C while executing a U-shape block toward C</p>
+<p>19. Jump and spin around counter clockwise, landing on the same spot to form a left L-stance toward C while executing a middle guarding block to C with a knife-hand</p>
+<p>20. Move the left foot to C forming a left walking stance toward C at the same time executing a low thrust to C with the right upset fingertip</p>
+<p>21. Execute a side back strike to D with the right back fist and a low block to C with the left forearm while forming a right L-stance toward C, pulling the left foot</p>
+<p>22. Move the right foot to C forming a right walking stance toward C while executing a middle thrust to C with the right straight finger tip</p>
+<p>23. Move the left foot to B turning counter clockwise to form a left walking stance toward B while executing a high block to B with the left double forearm</p>
+<p>24. Move the right foot to B forming a sitting stance toward C while executing a middle front block to C with the right forearm and then a high side strike to B with the right back fist</p>
+<p>25. Execute a middle side piercing kick to A with the right foot turning counter clockwise and then lower it to A</p>
+<p>26. Execute a middle side piercing kick to A with the left foot turning clockwise</p>
+<p>27. Lower the left foot to A and then execute a checking block to B with an X-knife-hand while forming a left L-stance toward B pivoting with the left foot</p>
+<p>28. Move the left foot to B forming a left walking stance toward B while executing an upward block to B with a twin palm</p>
+<p>29. Move the left foot on line AB and then execute a rising block with the right forearm while forming a right walking stance toward A</p>
+<p>30. Execute a middle punch to A with the left fist while maintaining a right walking stance toward A</p>
+
+<p>END: Bring the left foot back to a ready posture</p>
+]]>
+    </string>
+
+</resources>

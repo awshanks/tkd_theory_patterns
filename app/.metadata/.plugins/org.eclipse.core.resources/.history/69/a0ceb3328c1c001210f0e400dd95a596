@@ -1,0 +1,104 @@
+package nbg.dev.tkdtheoryandpatterns;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
+import android.support.v4.app.NavUtils;
+
+public class PatternsView extends Activity {
+
+	private ListView listContent;
+	private int value1;
+	private Bundle extras;
+	private String QUERY;
+
+	@SuppressWarnings("deprecation")
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_patterns_view);
+
+		extras = getIntent().getExtras();
+		if (extras != null) {
+			value1 = extras.getInt("Category");
+		}
+		
+		QUERY = GetQueryString(value1);
+		
+		if (QUERY != null) {
+
+			DataBaseHelper myDbHelper = new DataBaseHelper(this);
+			SQLiteDatabase database = myDbHelper.openDataBaseHere();
+			Cursor c = null;
+			try {
+				if (database != null) {
+					c = database.rawQuery(QUERY, null);
+					startManagingCursor(c);
+				}
+			} catch (Exception ex) {
+				ex.getMessage();
+			}
+
+			// create an array to specify which fields we want to display
+			String[] from = new String[] { "english", "korean" };
+			// create an array of the display item we want to bind our data to
+			int[] to = new int[] { R.id.text1, R.id.text2 };
+			// create simple cursor adapter
+			SimpleCursorAdapter adapter = new SimpleCursorAdapter(this,
+					R.layout.row, c, from, to);
+			// get reference to our listview
+			listContent.setAdapter(adapter);
+			database.close();
+			myDbHelper.close();
+		
+		
+	}
+
+	private String GetQueryString(int value) {
+
+		String queryString = null;
+
+		if (value == 0) {
+			//queryString = "SELECT _id, beltname, videourl, patternmeaning, diagram, movements FROM patterns where patternnumber = 1";
+		}
+		if (value == 1) {
+			queryString = "SELECT _id, beltname, videourl, patternmeaning, diagram, movements FROM patterns where patternnumber = '1'";
+		}
+		if (value == 2) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 3) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 4) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 5) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 6) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 7) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 8) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 9) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+		if (value == 10) {
+			//queryString = "SELECT _id, english, korean FROM theory";
+		}
+
+		return queryString;
+
+	}
+
+}

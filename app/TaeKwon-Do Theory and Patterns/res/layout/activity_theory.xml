@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svTheory"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/OtherTitleText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_medium"
+            android:text="@string/title_activity_theory" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bBodyParts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Body Parts" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bWhiteBelt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="White Belt - 10th KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bYellowTag"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Yellow Tag - 9th KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bYellowBelt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Yellow Belt - 8th KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bGreenTag"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Green Tag - 7th KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bGreenBelt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Green Belt - 6th KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bBlueTag"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue Tag - 5th KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bBlueBelt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue Belt - 4th KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bRedTag"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Red Tag - 3rd KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bRedBelt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Red Belt - 2nd KUP" />
+
+        <Button
+            android:background="@drawable/newbutton"
+            style="@style/ButtonTextTheory"
+            android:id="@+id/bBlackTag"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Black Tag - 1st KUP" />
+    </LinearLayout>
+
+</ScrollView>
